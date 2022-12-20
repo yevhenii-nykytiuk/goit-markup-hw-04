@@ -51,6 +51,14 @@
 }
 
 .card-portfolio {
+  cursor: pointer;
+}
+
+.card-portfolio:hover {
+  box-shadow: var(--card-shadow);
+}
+
+.card-portfolio-content {
   padding-left: 16px;
 }
 

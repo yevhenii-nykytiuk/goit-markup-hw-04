@@ -1,8 +1,7 @@
 :root {
   --photo-text-gap: 24px;
   --font-roboto: 'Roboto', sans-serif;
-  --card-shadow: 0px 2px 1px -1px rgb(0, 0, 0, 0.2), 0px 1px 1px 0px rgb(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgb(0, 0, 0, 0.12);
+  --card-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   --color-black-dark-bold: #2e2f42;
   --color-black-light: #434455;
   --color-background-focus-hover: #4d5ae5;
@@ -181,8 +180,15 @@ img {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404BBF;
-  box-shadow: rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
+.modal-btn:active {
+  background-color: #404BBF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
 
 /* =====================</HERO>====================== */
 
@@ -318,10 +324,10 @@ img {
 }
 
 .card {
-  box-shadow: var(--card-shadow);
   background-color: #fff;
   border-radius: 3px;
   overflow: hidden;
+  box-shadow: var(--card-shadow);
 }
 
 .card-content {
@@ -358,9 +364,11 @@ img {
 
 .social-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
-  margin-bottom: 36px;
+  padding-bottom: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .social-list-link {
@@ -395,8 +403,8 @@ img {
 
 .company-logo-list {
   display: flex;
-  justify-content: space-between;
-  
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .company-logo-item {
@@ -410,13 +418,23 @@ img {
 }
 
 .company-logo-list__icon {
-  
+  fill: #8e8f99;
+  cursor: pointer;
 }
+
+.company-logo-list__icon:hover {
+  fill: #4D5AE5;
+}
+
 
 /* =====================</COMPANY-LOGO>====================== */
 
 
 /* =====================<FOOTER>====================== */
+
+.footer-container {
+  display: flex;
+}
 
 .bottom-footer {
   padding-top: 100px;
@@ -432,6 +450,7 @@ img {
   color: #f4f4fd;
   text-transform: uppercase;
   margin-bottom: 16px;
+  margin-right: 269px;
 }
 
 .about-footer-content {
@@ -442,5 +461,38 @@ img {
   color: #e7e9fc;
   width: 264px;
 }
+
+.social-text {
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+
+.social-list-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+}
+
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #434455;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #31D0AA;
+}
+
 
 /* =====================</FOOTER>====================== */
