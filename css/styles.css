@@ -232,10 +232,6 @@ img {
   border-radius: 4px;
 }
 
-.icon-list-about {
-  
-}
-
 .about-title {
   font-family: var(--font-roboto);
   font-weight: 600;
@@ -367,10 +363,6 @@ img {
   margin-bottom: 36px;
 }
 
-.social-list-item {
-  
-}
-
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -381,14 +373,50 @@ img {
   border-radius: 50%;
 }
 
-.social-list-icon__link {
-  
-}
-
 
 /* =====================</GALLERY-MAIN-PERSON>====================== */
 
-/* =====================<BOTTOM-FOOTER>====================== */
+/* =====================<COMPANY-LOGO>====================== */
+
+.section-company-logo {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title-company-logo {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #2E2F42;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.company-logo-list {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.company-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+}
+
+.company-logo-list__icon {
+  
+}
+
+/* =====================</COMPANY-LOGO>====================== */
+
+
+/* =====================<FOOTER>====================== */
 
 .bottom-footer {
   padding-top: 100px;
@@ -415,4 +443,4 @@ img {
   width: 264px;
 }
 
-/* =====================</BOTTOM-FOOTER>====================== */
+/* =====================</FOOTER>====================== */
