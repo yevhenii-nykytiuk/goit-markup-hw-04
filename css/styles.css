@@ -1,7 +1,8 @@
 :root {
   --photo-text-gap: 24px;
   --font-roboto: 'Roboto', sans-serif;
-  --card-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  --card-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   --color-black-dark-bold: #2e2f42;
   --color-black-light: #434455;
   --color-background-focus-hover: #4d5ae5;
@@ -143,7 +144,8 @@ img {
   /* background-color: var(--color-black-dark-bold); */
   padding-top: 192px;
   padding-bottom: 192px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/people-office.jpg'), url('../images/hero-bg/dark-background.jpg');
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/hero-bg/people-office.jpg'), url('../images/hero-bg/dark-background.jpg');
   background-size: cover;
 }
 
@@ -179,16 +181,15 @@ img {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #404BBF;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background-color: #404bbf;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .modal-btn:active {
-  background-color: #404BBF;
+  background-color: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
-
 
 /* =====================</HERO>====================== */
 
@@ -233,7 +234,7 @@ img {
   align-items: center;
   width: 264px;
   height: 112px;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   margin-bottom: 8px;
   border-radius: 4px;
 }
@@ -377,10 +378,9 @@ img {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 50%;
 }
-
 
 /* =====================</GALLERY-MAIN-PERSON>====================== */
 
@@ -396,7 +396,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  color: #2E2F42;
+  color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -413,7 +413,7 @@ img {
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
@@ -423,12 +423,10 @@ img {
 }
 
 .company-logo-list__icon:hover {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
-
 /* =====================</COMPANY-LOGO>====================== */
-
 
 /* =====================<FOOTER>====================== */
 
@@ -469,14 +467,12 @@ img {
   line-height: 1.5;
   color: #fff;
   margin-bottom: 16px;
-
 }
 
 .social-list-footer {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-
 }
 
 .social-link-footer {
@@ -491,8 +487,7 @@ img {
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
-
 
 /* =====================</FOOTER>====================== */
