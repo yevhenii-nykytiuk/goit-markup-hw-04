@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/portfolio.css" />
-    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -13,9 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Portfolio</title>
   </head>
@@ -25,7 +24,9 @@
 
     <header class="top-header">
       <div class="container top-header-container">
-        <p class="logo"><span class="span-logo">WEB</span>STUDIO</p>
+        <a class="logo-link link" href="#">
+          <p class="logo"><span class="span-logo">WEB</span>STUDIO</p>
+        </a>
 
         <nav class="navigation">
           <ul class="menu-list list">
@@ -33,7 +34,7 @@
               <a href="index.html" class="menu-link link">Studio</a>
             </li>
             <li class="menu-item">
-              <a href="#" class="menu-link link">Portfolio</a>
+              <a href="#" class="menu-link link menu-link__portfolio">Portfolio</a>
             </li>
             <li class="menu-item">
               <a href="#" class="menu-link link">Contacts</a>
@@ -252,7 +253,9 @@
     <footer class="bottom-footer">
       <div class="container footer-container">
         <div>
-          <p class="logo-footer"><span class="span-logo">WEB</span>STUDIO</p>
+          <a class="logo-link link" href="#">
+            <p class="logo-footer"><span class="span-logo">WEB</span>STUDIO</p>
+          </a>
 
           <p class="about-footer-content">
             Increase the flow of customers and sales for your business with digital marketing &
@@ -266,28 +269,28 @@
           <ul class="social-list-footer list">
             <li class="social-item-footer">
               <a class="social-link-footer" href="#">
-                <svg class="social-icon-footer__link" width="24" height="24">
+                <svg class="social-icon-link" width="24" height="24">
                   <use href="./images/icon-social-footer/sprite-footer.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item-footer">
               <a class="social-link-footer" href="#">
-                <svg class="social-icon-footer__link" width="24" height="24">
+                <svg class="social-icon-link" width="24" height="24">
                   <use href="./images/icon-social-footer/sprite-footer.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item-footer">
               <a class="social-link-footer" href="#">
-                <svg class="social-icon-footer__link" width="24" height="24">
+                <svg class="social-icon-link" width="24" height="24">
                   <use href="./images/icon-social-footer/sprite-footer.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item-footer">
               <a class="social-link-footer" href="#">
-                <svg class="social-icon-footer__link" width="24" height="24">
+                <svg class="social-icon-link" width="24" height="24">
                   <use href="./images/icon-social-footer/sprite-footer.svg#icon-linkedin"></use>
                 </svg>
               </a>
