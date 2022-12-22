@@ -152,8 +152,8 @@ img {
 
 /* =====================<HERO>====================== */
 .hero {
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/hero-bg/people-office.jpg'), url('../images/hero-bg/dark-background.jpg');
   background-size: cover;
@@ -354,7 +354,12 @@ img {
 }
 
 .about-content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 12px;
+  color: #434455;
 }
 
 .gallery-person-title {
@@ -392,6 +397,10 @@ img {
   border-radius: 50%;
 }
 
+.social-list-link:hover {
+  background-color: #404bbf;
+  box-shadow: var(--card-shadow);
+}
 /* =====================</GALLERY-MAIN-PERSON>====================== */
 
 /* =====================<COMPANY-LOGO>====================== */
